@@ -4,7 +4,22 @@
     <h3>{{ .Params.home.subheading }}</h3>
 </header>
 <main class="girdle" role="main">
-    {{ .Params.home.main_copy }}
+
+
+    {{ $markdown := .Params.home.leadin | markdownify }}
+    {{ if not ( strings.Contains $markdown "<p>" ) }}
+    <p class="leadin">{{ $markdown }}</p>
+    {{ else }}
+    {{ $markdown }}
+    {{ end }}
+
+
+    {{ $markdown := .Params.home.main_copy | markdownify }}
+    {{ if not ( strings.Contains $markdown "<p>" ) }}
+    <p>{{ $markdown }}</p>
+    {{ else }}
+    {{ $markdown }}
+    {{ end }}
     <article class="blog-comments">
         {{ template "_internal/disqus.html" . }}
     </article>

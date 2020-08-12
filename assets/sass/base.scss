@@ -7,7 +7,24 @@
   }
 }
 
+.leadin {
+  font-size: 1.2rem;
+}
+
+@media all and (min-width: 63.9385em) {
+  .leadin {
+    font-size: 2rem;
+  }
+}
+
 .girdle {
   margin: 0 auto;
+  padding: 20px;
   max-width: 1200px;
+  text-align: center;
+}
+
+.mdn-logo {
+  margin: 10px auto;
+  width: 350px;
 }
