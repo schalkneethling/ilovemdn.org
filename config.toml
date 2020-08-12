@@ -1,0 +1,4 @@
+baseURL = "https://ilovemdn.org/"
+languageCode = "en-us"
+title = "I Love MDN ♥️ Share your appreciation for MDN"
+disqusShortname = "ilovemdn-org"

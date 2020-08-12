@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "ilovemdn.css",
+	"sourceRoot": "/Users/schalkneethling/repos/ilovemdn.org",
+	"sources": [
+		"assets/sass/ilovemdn.scss",
+		"assets/sass/lib/_reset.scss"
+	],
+	"sourcesContent": [
+		"@import \"./lib/reset\";\n",
+		"/* Read about the story behind the creation:\n * https://hankchizljaw.com/wrote/a-modern-css-reset/\n ===================================================== */\n/* Box sizing rules */\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\n/* Remove default padding */\nul[class],\nol[class] {\n  padding: 0;\n}\n\n/* Remove default margin */\nbody,\nh1,\nh2,\nh3,\nh4,\np,\nul[class],\nol[class],\nli,\nfigure,\nfigcaption,\nblockquote,\ndl,\ndd {\n  margin: 0;\n}\n\n/* Set core body defaults */\nbody {\n  min-height: 100vh;\n  scroll-behavior: smooth;\n  text-rendering: optimizeSpeed;\n  line-height: 1.5;\n}\n\n/* Remove list styles on ul, ol elements with a class attribute */\nul[class],\nol[class] {\n  list-style: none;\n}\n\n/* A elements that don't have a class get default styles */\na:not([class]) {\n  text-decoration-skip-ink: auto;\n}\n\n/* Make images easier to work with */\nimg {\n  max-width: 100%;\n  display: block;\n}\n\n/* Natural flow and rhythm in articles by default */\narticle > * + * {\n  margin-top: 1em;\n}\n\n/* Inherit fonts for inputs and buttons */\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\n/* Remove all animations and transitions for people that prefer not to see them */\n@media (prefers-reduced-motion: reduce) {\n  * {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n    scroll-behavior: auto !important;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,CAAC,CACD,CAAC,EAAE,MAAM,CACT,CAAC,EAAE,KAAK,AAAC,CACP,UAAU,CAAE,UAAU,CACvB,AAGD,AAAA,EAAE,CAAA,AAAA,KAAC,AAAA,EACH,EAAE,CAAA,AAAA,KAAC,AAAA,CAAO,CACR,OAAO,CAAE,CAAC,CACX,AAGD,AAAA,IAAI,CACJ,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,CAAC,CACD,EAAE,CAAA,AAAA,KAAC,AAAA,EACH,EAAE,CAAA,AAAA,KAAC,AAAA,EACH,EAAE,CACF,MAAM,CACN,UAAU,CACV,UAAU,CACV,EAAE,CACF,EAAE,AAAC,CACD,MAAM,CAAE,CAAC,CACV,AAGD,AAAA,IAAI,AAAC,CACH,UAAU,CAAE,KAAK,CACjB,eAAe,CAAE,MAAM,CACvB,cAAc,CAAE,aAAa,CAC7B,WAAW,CAAE,GAAG,CACjB,AAGD,AAAA,EAAE,CAAA,AAAA,KAAC,AAAA,EACH,EAAE,CAAA,AAAA,KAAC,AAAA,CAAO,CACR,UAAU,CAAE,IAAI,CACjB,AAGD,AAAA,CAAC,CAAA,GAAK,EAAA,AAAA,KAAC,AAAA,EAAQ,CACb,wBAAwB,CAAE,IAAI,CAC/B,AAGD,AAAA,GAAG,AAAC,CACF,SAAS,CAAE,IAAI,CACf,OAAO,CAAE,KAAK,CACf,AAGD,AAAA,OAAO,CAAG,CAAC,CAAG,CAAC,AAAC,CACd,UAAU,CAAE,GAAG,CAChB,AAGD,AAAA,KAAK,CACL,MAAM,CACN,QAAQ,CACR,MAAM,AAAC,CACL,IAAI,CAAE,OAAO,CACd,AAGD,MAAM,iCACJ,CAAA,AAAA,CAAC,AAAC,CACA,kBAAkB,CAAE,iBAAiB,CACrC,yBAAyB,CAAE,YAAY,CACvC,mBAAmB,CAAE,iBAAiB,CACtC,eAAe,CAAE,eAAe,CACjC,CAAA"
+}

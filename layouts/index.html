@@ -1,0 +1,12 @@
+{{ define "main" }}
+<header class="home-main">
+    <h2>{{ .Params.home.heading }}</h2>
+    <h3>{{ .Params.home.subheading }}</h3>
+</header>
+<main class="girdle" role="main">
+    {{ .Params.home.main_copy }}
+    <article class="blog-comments">
+        {{ template "_internal/disqus.html" . }}
+    </article>
+</main>
+{{ end }}
